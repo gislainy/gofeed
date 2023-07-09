@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/gislainy/gofeed"
 	"github.com/gislainy/gofeed/atom"
 	"github.com/gislainy/gofeed/json"
 	"github.com/gislainy/gofeed/rss"
-	"github.com/mmcdole/gofeed"
 	"github.com/stretchr/testify/assert"
 )
 

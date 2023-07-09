@@ -185,7 +185,7 @@ First we must define a custom translator:
 import (
     "fmt"
 
-    "github.com/mmcdole/gofeed"
+    "github.com/gislainy/gofeed"
     "github.com/gislainy/gofeed/rss"
 )
 
