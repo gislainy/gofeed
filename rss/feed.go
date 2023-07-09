@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	ext "github.com/mmcdole/gofeed/extensions"
+	ext "github.com/gislainy/gofeed/extensions"
 )
 
 // Feed is an RSS Feed
@@ -59,6 +59,7 @@ type Item struct {
 	PubDate       string                   `json:"pubDate,omitempty"`
 	PubDateParsed *time.Time               `json:"pubDateParsed,omitempty"`
 	Source        *Source                  `json:"source,omitempty"`
+	Subtitle      string                   `json:"subtitle,omitempty"`
 	DublinCoreExt *ext.DublinCoreExtension `json:"dcExt,omitempty"`
 	ITunesExt     *ext.ITunesItemExtension `json:"itunesExt,omitempty"`
 	Extensions    ext.Extensions           `json:"extensions,omitempty"`

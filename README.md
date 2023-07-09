@@ -186,7 +186,7 @@ import (
     "fmt"
 
     "github.com/mmcdole/gofeed"
-    "github.com/mmcdole/gofeed/rss"
+    "github.com/gislainy/gofeed/rss"
 )
 
 type MyCustomTranslator struct {

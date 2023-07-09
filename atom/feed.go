@@ -3,8 +3,6 @@ package atom
 import (
 	"encoding/json"
 	"time"
-
-	"github.com/mmcdole/gofeed/extensions"
 )
 
 // Feed is an Atom Feed

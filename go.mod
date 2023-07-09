@@ -1,10 +1,11 @@
-module github.com/mmcdole/gofeed
+module github.com/gislainy/gofeed
 
 go 1.19
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/json-iterator/go v1.1.12
+	github.com/mmcdole/gofeed v1.2.1
 	github.com/mmcdole/goxpp v1.1.0
 	github.com/stretchr/testify v1.8.1
 	github.com/urfave/cli v1.22.3
